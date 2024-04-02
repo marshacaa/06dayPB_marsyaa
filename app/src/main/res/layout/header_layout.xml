@@ -1,0 +1,40 @@
+<!-- header_layout.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- Judul Toko -->
+    <TextView
+        android:id="@+id/tokoTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Marugame Udon x Maca"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp" />
+
+    <!-- Teks Kolaborasi Menu -->
+    <TextView
+        android:id="@+id/collaborationText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sebuah kolaborasi menu Marugame Udon oleh Chef Marsya"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:padding="8dp"
+        android:layout_below="@id/tokoTitle" />
+
+    <!-- Nomor Telepon -->
+    <TextView
+        android:id="@+id/phoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telepon: 08525300 8870"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:layout_below="@id/collaborationText" />
+
+</RelativeLayout>
